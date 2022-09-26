@@ -27,6 +27,7 @@ void rotate(queue<T>& obj) {
 
 
 int main() {
+	srand(time(NULL));
 	const size_t size = 7;
 	queue<>obj1(size);
 	queue<>obj2(size);
